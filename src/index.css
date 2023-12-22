@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  /* background: linear-gradient(90deg, #22C1C3 0.05%, rgba(195, 42, 208, 0.71) 51.81%, rgba(200, 38, 208, 0.70) 51.82%, rgba(200, 38, 208, 0.70) 51.97%, #E4B040 99.95%); */
+  overflow: hidden;
+  /* user-select: none; */
+}
+
+#root{
+  width: 100%;
+  height: 100%;
+}
+
+.body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
