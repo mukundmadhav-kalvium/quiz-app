@@ -1,8 +1,25 @@
-#result--tagline, #result--percentage{
-    text-align: center;
-    margin-bottom: 10px;
+#result--tagline,
+#result--percentage {
+  text-align: center;
+  margin-bottom: 10px;
 }
 
-.result{
-    margin: 200px auto;
+#result--percentage {
+  margin-top: 20px;
+}
+
+.result {
+  margin: 150px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#play-again {
+  margin-top: 50px;
+  width: 130px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
 }

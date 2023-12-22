@@ -8,11 +8,21 @@ const AppProvider = ({ children }) => {
   const [showResult, setShowResult] = useState(false);
 
   const toggleTheme = () => {
-    setTheme((theme === "light" ? "dark" : "light"))
-  }
+    setTheme(theme === "light" ? "dark" : "light");
+  };
 
   return (
-    <AppContext.Provider value={{ theme, setTheme, toggleTheme, score, setScore, showResult, setShowResult }}>
+    <AppContext.Provider
+      value={{
+        theme,
+        setTheme,
+        toggleTheme,
+        score,
+        setScore,
+        showResult,
+        setShowResult,
+      }}
+    >
       {children}
     </AppContext.Provider>
   );
